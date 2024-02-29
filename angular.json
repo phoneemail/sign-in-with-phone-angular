@@ -1,10 +1,9 @@
-
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "phone.email": {
+    "upwork.angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -14,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/phone.email",
+            "outputPath": "dist/upwork.angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -58,10 +57,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "phone.email:build:production"
+              "buildTarget": "upwork.angular:build:production"
             },
             "development": {
-              "buildTarget": "phone.email:build:development"
+              "buildTarget": "upwork.angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -69,7 +68,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "phone.email:build"
+            "buildTarget": "upwork.angular:build"
           }
         },
         "test": {
