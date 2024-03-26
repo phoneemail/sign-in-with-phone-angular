@@ -51,7 +51,9 @@ To utilize the application:
     ```
 
 2. **Open URL on a browser:**
-Open your web browser and go to [http://localhost:4200/](http://localhost:4200). The application will automatically reload if you change any of the source files.
+
+Open your web browser and go to [http://localhost:4200/](http://localhost:4200). 
+The application will automatically reload if you change any of the source files.
 
 3. **Build:**
 
