@@ -1,27 +1,81 @@
-# PhoneEmail
+# Sign in with Phone - Angular Demo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.10.
+Welcome to the Angular demo repository for integrating "Sign in with Phone" functionality into your web applications. This repository showcases how you can seamlessly implement phone verification and authentication using our innovative plugin.
 
-## Development server
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [Example Demo](#example-demo)
+5. [Documentation](#documentation)
+6. [Website](#website)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Introduction
 
-## Code scaffolding
+Phone Email presents a revolutionary solution for user authentication - "Sign in with Phone". Our plugin enables websites to offer seamless phone number verification to users, enhancing security and user experience. Similar to Firebase phone authentication, our solution embeds a "Log in with phone" button on client websites. Upon clicking, a verification window prompts users to enter their country code and mobile number. After successful verification through OTP sent to the user's mobile, control redirects back to the client website with an access token. Subsequently, passing this access token to the getuser REST API retrieves the verified mobile number.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Key Benefits:
+- **Cost-Effective:** Minimal or no cost for phone verification.
+- **Enhanced Security:** OTP-based verification ensures secure authentication.
+- **Seamless Integration:** Easy integration into existing web applications.
+- **Improved User Experience:** Streamlined authentication process for users.
 
-## Build
+## Installation
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+To integrate the "Sign in with Phone" functionality into your Angular project, follow these steps:
 
-## Running unit tests
+1. **Clone the repository:**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+    ```bash
+    git clone https://github.com/phoneemail/sign-in-with-phone-angular.git
+    ```
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Navigate to the project directory:**
 
-## Further help
+    ```bash
+    cd sign-in-with-phone-angular
+    ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. **Change the configuration:**
+Replace `CLIENT_ID` with your client ID and `YOUR_REDIRECT_URL` with your success page URL in the `app.components.ts` file.
+
+## Usage
+
+To utilize the application:
+
+1. **Start the application on Development server :**
+
+    ```bash
+    ng serve
+    ```
+
+2. **Open URL on a browser:**
+Open your web browser and go to [http://localhost:4200/](http://localhost:4200). The application will automatically reload if you change any of the source files.
+
+3. **Build:**
+
+    ```bash
+    ng build
+    ```
+
+    The build artifacts will be stored in the `dist/` directory.
+
+## Example Demo
+
+Experience the seamless authentication process firsthand with our [demo](https://www.phone.email/demo-login). Our demo provides a live demonstration of the "Sign in with Phone" plugin, showcasing its functionality and ease of use. Explore the demo to understand how the plugin can enhance the authentication experience on your website. 
+
+## Documentation
+
+For comprehensive documentation on integrating the "Sign in with Phone" plugin into your Next.js application, refer to our [documentation](https://www.phone.email/docs#angular). The documentation provides detailed instructions, code samples, and configuration options to help you seamlessly integrate the plugin into your project. 
+
+## Website
+
+Visit our [website](https://www.phone.email) to learn more about our authentication solutions and explore additional features and services. Experience the future of authentication with Phone Email's "Sign in with Phone" plugin.
+By implementing our plugin, you can elevate the security of your website, enhance user experience, and streamline the authentication process for your users. Embrace the power of phone verification with Phone Email's innovative solution.
+
+
+---
+Developed by [Phone Email](https://www.phone.email)
+
+![App Logo](https://www.phone.email/assets/imgs/page/homepage/logo.svg)
