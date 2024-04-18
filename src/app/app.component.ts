@@ -50,7 +50,7 @@ export class AppComponent implements OnInit {
 
   openAuthWindow() {
     const REDIRECT_URL = window.location.href;
-    const AUTH_URL = `https://auth.phone.email/log-in?client_id=${this.CLIENT_ID}&redirect_url=${REDIRECT_URL}`;
+    const AUTH_URL = `https://www.phone.email/auth/log-in?client_id=${this.CLIENT_ID}&redirect_url=${REDIRECT_URL}`;
     window.open(AUTH_URL, 'peLoginWindow', 'toolbar=0,scrollbars=0,location=0,statusbar=0,menubar=0,resizable=0,width=500,height=560,top=' + (window.screen.height - 600) / 2 + ',left=' + (window.screen.width - 500) / 2);
   }
 
